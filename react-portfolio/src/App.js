@@ -8,6 +8,7 @@ import React from "react";
 
 // import other components for use within the app.
 import Header from "./components/header";
+import Footer from "./components/footer";
 // import About from "./components/about";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       </Routes>
 
       </Router> */}
+      <Footer />
     </div>
   );
 }

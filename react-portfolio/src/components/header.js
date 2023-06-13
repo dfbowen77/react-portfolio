@@ -1,13 +1,13 @@
 import React from 'react';
 import resume from '../assets/DFB CV 2022.pdf'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEvernote, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faCoffee, faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
     return (
         <>
-            <div className= "text-center header-section justify-content-center text-black">
+            <div className= "text-center header-section justify-content-center text-black bg-primary">
                 <h1 className="header-name">Dan Bowen</h1>
                 <p className="header-description">A Durham, NC resident learning web development for personal edification.</p>
 
