@@ -8,7 +8,7 @@ function Header() {
     return (
         <>
             <div className= "text-center header-section justify-content-center text-black bg-primary">
-                <h1 className="header-name">Dan Bowen</h1>
+                <h1 className="header-name">Daniel F. Bowen</h1>
                 <p className="header-description">A Durham, NC resident learning web development for personal edification.</p>
 
                 <div className ='container mb-3 mt-4' >

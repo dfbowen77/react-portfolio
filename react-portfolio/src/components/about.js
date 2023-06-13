@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
-import profilepic from "'../assets/profile-pic.jpg";
+import profilepic from "../assets/profile-pic.jpg";
 
 function About () {
     return(
