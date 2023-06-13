@@ -11,6 +11,7 @@ import Navigator from "./components/navbar";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import About from "./components/about";
+import Portfolio from "./components/portfolio";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Navigator />
         <Routes>
           <Route path ="/about-me" element={<About />} />
+          <Route path ="/portfolio" element={<Portfolio />} />
         </Routes>
       </Router>
       <Footer />
