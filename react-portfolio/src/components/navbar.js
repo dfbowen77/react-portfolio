@@ -10,10 +10,8 @@ function Navigator() {
             <div className="container-fluid nav-color">
                 <nav>
                   <ul className="navbar nav justify-content-center navbar-dark nav-color bg-primary">
-                    <li className="nav-item">
-                      <a className="nav-link" style={{ color:'white' }} href="#home">
-                        Home
-                      </a>
+                  <li className="nav-item" >
+                    <Nav.Link as={Link} to="/" className="fs-5 nav-link-highlight text-white">Home</Nav.Link>
                     </li>
                     <li className="nav-item" >
                     <Nav.Link as={Link} to="/about-me" className="fs-5 nav-link-highlight text-white">About Me</Nav.Link>

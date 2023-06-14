@@ -14,7 +14,7 @@ function Header() {
                 <div className ='container mb-3 mt-4' >
                     <a href="https://github.com/dfbowen77" className="btn tooltip-test icon" title="Github" target="_blank" rel="noopener noreferrer"
                         style={{fontSize:25, color:'#E8E8E8', marginRight:10}}><FontAwesomeIcon icon= {faGithub}/></a>
-                    <a href="https://github.com/dfbowen77" className="btn tooltip-test icon" title="Linkedin"
+                    <a href="https://www.linkedin.com/in/dan-bowen-644ab97/" className="btn tooltip-test icon" title="Linkedin"
                         target="_blank" rel="noopener noreferrer" style={{fontSize:25,color:'#E8E8E8',marginRight:10}}><FontAwesomeIcon icon={faLinkedin} /></a>
                     <a href="mailto: danbowen2677@gmail.com" className="btn tooltip-test icon" title="Email" target="_blank" rel="noopener noreferrer"
                         style={{fontSize:25, color:'#E8E8E8', marginRight:10}}><FontAwesomeIcon icon={faEnvelope} /></a>

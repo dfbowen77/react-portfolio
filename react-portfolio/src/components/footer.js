@@ -14,17 +14,17 @@ function Footer() {
                         </a>
                     </div>
                     <div id="Linkedin-footer" className="d-flex flex-column align-items-center mx-md-2 transparent-bg">
-                        <a href="https://github.com/dfbowen77" className="btn tooltip-test icon">
+                        <a href="https://www.linkedin.com/in/dan-bowen-644ab97/" className="btn tooltip-test icon">
                             <FontAwesomeIcon icon= {faLinkedin}/>
                         </a>
                     </div>
                     <div id="Twitter-footer" className="d-flex flex-column align-items-center mx-md-2 transparent-bg">
-                        <a href="https://github.com/dfbowen77" className="btn tooltip-test icon">
+                        <a href="https://twitter.com/steak_umm" className="btn tooltip-test icon">
                             <FontAwesomeIcon icon= {faTwitter}/>
                         </a>
                     </div>
                     <div id="Stack-overflow-footer" className="d-flex flex-column align-items-center mx-md-2 transparent-bg">
-                        <a href="https://github.com/dfbowen77" className="btn tooltip-test icon">
+                        <a href="https://stackoverflow.com/users/22074991/dfbowen77" className="btn tooltip-test icon">
                             <FontAwesomeIcon icon= {faStackOverflow}/>
                         </a>
                     </div>
