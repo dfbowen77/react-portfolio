@@ -22,9 +22,7 @@ function Navigator() {
                     <Nav.Link as={Link} to="/portfolio" className="fs-5 nav-link-highlight text-white">Portfolio</Nav.Link>
                     </li>
                     <li className="nav-item" >
-                      <a className= "nav-link" href={ resume } style={{ color: 'white'}}>
-                        Resume
-                      </a>
+                    <Nav.Link as={Link} to="/resume" className="fs-5 nav-link-highlight text-white">Resume</Nav.Link>
                     </li>
                     <li className="nav-item" >
                     <Nav.Link as={Link} to="/contact" className="fs-5 nav-link-highlight text-white">Contact Me</Nav.Link>

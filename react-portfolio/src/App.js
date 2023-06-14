@@ -13,6 +13,7 @@ import Footer from "./components/footer";
 import About from "./components/about";
 import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
+import Resume from "./components/resume";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path ="/about-me" element={<About />} />
           <Route path ="/portfolio" element={<Portfolio />} />
           <Route path ="/contact" element={<Contact />} />
+          <Route path ="/resume" element={<Resume />} />
         </Routes>
       </Router>
       <Footer />
