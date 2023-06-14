@@ -27,9 +27,7 @@ function Navigator() {
                       </a>
                     </li>
                     <li className="nav-item" >
-                      <a className="nav-link" href="mailto: danbowen2677@gmail.com" style={{ color: 'white'}}>
-                        Contact Me
-                      </a>
+                    <Nav.Link as={Link} to="/contact" className="fs-5 nav-link-highlight text-white">Contact Me</Nav.Link>
                     </li>
                 </ul>
               </nav>
