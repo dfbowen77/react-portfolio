@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.25a81790.css",
+    "main.js": "/react-portfolio/static/js/main.6509b48d.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Original-portfolio.png": "/react-portfolio/static/media/Original-portfolio.af23315b28dc907fe0f9.png",
+    "static/media/profile-pic.jpg": "/react-portfolio/static/media/profile-pic.69bf6d48bed191498c73.jpg",
+    "static/media/DFB CV 2022.pdf": "/react-portfolio/static/media/DFB CV 2022.9978f40203591e512b8b.pdf",
+    "static/media/Weather-dashboard.png": "/react-portfolio/static/media/Weather-dashboard.c6a6e1a68c1d98535ff9.png",
+    "static/media/Work-day-scheduler.png": "/react-portfolio/static/media/Work-day-scheduler.a2e721ba570cfe24fc98.png",
+    "static/media/Code-quiz.png": "/react-portfolio/static/media/Code-quiz.75141614675cbd62d548.png",
+    "static/media/Password-generator.png": "/react-portfolio/static/media/Password-generator.758f992d727b65455b5a.png",
+    "static/media/Text-editor.png": "/react-portfolio/static/media/Text-editor.029aae7f0fe4d8a4bcc1.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.25a81790.css.map": "/react-portfolio/static/css/main.25a81790.css.map",
+    "main.6509b48d.js.map": "/react-portfolio/static/js/main.6509b48d.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25a81790.css",
+    "static/js/main.6509b48d.js"
+  ]
+}
