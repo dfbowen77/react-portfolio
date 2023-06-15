@@ -23,6 +23,7 @@ function App() {
       <Navigator />
         <Routes>
           <Route path ="/" element={<About />} />
+          <Route path ="/react-portfolio" element={<About />} />
           <Route path ="/about-me" element={<About />} />
           <Route path ="/portfolio" element={<Portfolio />} />
           <Route path ="/contact" element={<Contact />} />
