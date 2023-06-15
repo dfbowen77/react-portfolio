@@ -1,6 +1,6 @@
 // import the neccessary react and bootstrap components
 import React, {useState} from 'react';
-import { Container, Row, Col, Form, Button} from 'react-bootstrap'
+import { Container, Row, Col, Form, Button, Stack} from 'react-bootstrap'
 
 function Contact() {
     const [name, setName] = useState("")
@@ -76,7 +76,7 @@ function Contact() {
               </div>
             )}
             <Form onSubmit={handleSubmit} noValidate>
-              <Form.Group>
+              <Form.Group className="my-5">
                 <Form.Label htmlFor="name">Name:</Form.Label>
                 <Form.Control
                   type="text"
@@ -94,7 +94,7 @@ function Contact() {
                   </div>
                 )}
               </Form.Group>
-              <Form.Group>
+              <Form.Group className="my-5">
                 <Form.Label htmlFor="email">Email:</Form.Label>
                 {/* Form.Control is a part of react.bootstrap and it allows you to upgrade input boxes and text areas with custom styling  */}
                 <Form.Control
@@ -113,7 +113,7 @@ function Contact() {
                   </div>
                 )}
               </Form.Group>
-              <Form.Group>
+              <Form.Group className="my-5">
                 <Form.Label htmlFor="message">Message:</Form.Label>
                 <Form.Control
                   as="textarea"
@@ -131,7 +131,7 @@ function Contact() {
                   </div>
                 )}
               </Form.Group>
-              <Button type="submit" className="custom-send-message-button">
+              <Button type="submit" className="custom-send-message-button my-5">
                 Send Message
               </Button>
             </Form>
